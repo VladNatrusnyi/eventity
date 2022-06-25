@@ -8,9 +8,22 @@
 </template>
 <script>
 import Header from './components/Header'
+import { mapActions, mapGetters } from 'vuex'
 export default {
   name: 'app',
-  components: { Header }
+  components: {
+    Header
+  },
+  methods: {
+    ...mapActions([
+      'GET_EVENTS_FROM_API'
+    ])
+  },
+  computed: {
+    ...mapGetters([
+      'user'
+    ])
+  }
 }
 </script>
 <style>
@@ -25,6 +38,5 @@ export default {
 .container{
   max-width: 1200px;
   margin:  0 auto;
-  padding: 0px 10px;
 }
 </style>

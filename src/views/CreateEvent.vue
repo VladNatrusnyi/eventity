@@ -1,11 +1,7 @@
 <template>
     <div class="create_event">
     <div class="container">
-      <div class="content">
-        <info-about-event />
         <EventForm />
-      </div>
-      <EventList :posts="posts"/>
     </div>
   </div>
 <!--  @create="createPost"-->
@@ -13,21 +9,13 @@
 </template>
 
 <script>
-import EventForm from '../components/EventForm'
-import EventList from '../components/EventList'
-import InfoAboutEvent from '../components/InfoAboutEvent'
+import EventForm from '../components/CreateEventPage/EventForm'
 export default {
   name: 'CreateEvent',
   computed: {
-    posts () {
-      // return this.$store.state.posts
-      return this.$store.getters.getPosts
-    }
   },
   components: {
-    EventForm,
-    EventList,
-    InfoAboutEvent
+    EventForm
   }
 }
 </script>
@@ -35,11 +23,6 @@ export default {
 .create_event{
   padding-top: 40px;
   background: #F3F3F3;
-}
-.content{
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
 }
 .event_designer_necessary_personal_list li{
   margin-bottom: 15px;

@@ -1,0 +1,323 @@
+{
+  "events": [
+    {
+      "creatorId": 1,
+      "EventName": "День народження Мами",
+      "TypeOfEvent": {
+        "name": "День народження",
+        "code": "BD"
+      },
+      "realTime": "2022-01-19T14:00:29.000Z",
+      "workers": [
+        {
+          "value": "Тамада",
+          "couple": 1,
+          "salary": "3200"
+        },
+        {
+          "value": "Декоратор",
+          "couple": 2,
+          "salary": "2500"
+        }
+      ],
+      "EventBudget": "2000",
+      "EventCity": "Київ",
+      "EventLocationArea": "24",
+      "EventLocationType": {
+        "name": "Ресторан",
+        "code": "1"
+      },
+      "EventNumberGuests": "23",
+      "EventAboutInfo": "Це класне день народження моєї мами. Хочу щоб було багато гостей і весело",
+      "CreationDate": "2022-01-02T14:05:54.658Z",
+      "id": 1
+    },
+    {
+      "creatorId": 2,
+      "EventName": "Весілля",
+      "TypeOfEvent": {
+        "name": "Весілля",
+        "code": "BD"
+      },
+      "realTime": "2022-01-19T14:00:29.000Z",
+      "workers": [
+        {
+          "value": "Тамада",
+          "couple": 1,
+          "salary": "3200"
+        },
+        {
+          "value": "Декоратор",
+          "couple": 2,
+          "salary": "2500"
+        }
+      ],
+      "EventBudget": "2000",
+      "EventCity": "Київ",
+      "EventLocationArea": "24",
+      "EventLocationType": {
+        "name": "Ресторан",
+        "code": "1"
+      },
+      "EventNumberGuests": "23",
+      "EventAboutInfo": "Це класне весіля моєї мами. Хочу щоб було багато гостей і весело",
+      "CreationDate": "2022-01-02T14:05:54.658Z",
+      "id": 2
+    },
+    {
+      "creatorId": 3,
+      "EventName": "Фестиваль Пива",
+      "TypeOfEvent": {
+        "name": "Фестиваль",
+        "code": "BD"
+      },
+      "realTime": "2022-01-19T14:00:29.000Z",
+      "workers": [
+        {
+          "value": "Тамада",
+          "couple": 1,
+          "salary": "3200"
+        },
+        {
+          "value": "Декоратор",
+          "couple": 2,
+          "salary": "2500"
+        }
+      ],
+      "EventBudget": "2000",
+      "EventCity": "Київ",
+      "EventLocationArea": "24",
+      "EventLocationType": {
+        "name": "Ресторан",
+        "code": "1"
+      },
+      "EventNumberGuests": "23",
+      "EventAboutInfo": "Це класний фестиваль. Хочу щоб було багато гостей і весело",
+      "CreationDate": "2022-01-02T14:05:54.658Z",
+      "id": 3
+    },
+    {
+      "creatorId": 1010,
+      "EventName": "Мій ДР",
+      "TypeOfEvent": {
+        "name": "День народження",
+        "code": "BD"
+      },
+      "realTime": "2022-03-31T12:00:29.000Z",
+      "workers": [
+        {
+          "value": "Арендатор",
+          "couple": 1,
+          "salary": "3200"
+        },
+        {
+          "value": "Музикант",
+          "couple": 2,
+          "salary": "2500"
+        }
+      ],
+      "EventBudget": "5600",
+      "EventCity": "Київ",
+      "EventLocationArea": "24",
+      "EventLocationType": {
+        "name": "Ресторан",
+        "code": "1"
+      },
+      "EventNumberGuests": "23",
+      "EventAboutInfo": "О ошшоі і ді тгт гі ргртгргі п и и ргргргр шсвоос ртст  ошошо шо о шош о В гт л да. мшщвмт тшт жш",
+      "CreationDate": "2022-03-24T14:05:54.658Z",
+      "id": 4
+    },
+    {
+      "creatorId": 1010,
+      "EventName": "Фестиваль великів",
+      "TypeOfEvent": {
+        "name": "Фестиваль",
+        "code": "FD"
+      },
+      "realTime": "2022-04-07T07:00:24.000Z",
+      "workers": [
+        {
+          "value": "Тамада",
+          "couple": 2,
+          "salary": "200"
+        },
+        {
+          "value": "Аніматор",
+          "couple": 3,
+          "salary": "300"
+        },
+        {
+          "value": "Декоратор",
+          "couple": 1,
+          "salary": "400"
+        }
+      ],
+      "EventBudget": "3000",
+      "EventCity": "Львів",
+      "EventLocationArea": "24",
+      "EventLocationType": {
+        "name": "Ресторан",
+        "code": "1"
+      },
+      "EventNumberGuests": "15",
+      "EventAboutInfo": "Крутий фестиваль повинен бути із всякими приколюхами",
+      "CreationDate": "2022-03-31T10:16:08.966Z",
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Leanne",
+      "surname": "Bret",
+      "avatar": "1.png",
+      "birthDate": "26.03.2003",
+      "age": 22,
+      "location": {
+        "city": "London",
+        "country": "Great Britain"
+      },
+      "city": "London",
+      "contacts": {
+        "email": "Sincere@april.biz",
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "skype": "hildegard.org",
+        "instagram": "hildegard.org",
+        "telegram": "hildegard.org"
+      },
+      "profileTitle": "Супер ТАМАДА",
+      "aboutInfo": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud \n\nexercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \n\nExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"",
+      "rating": 2
+    },
+    {
+      "id": 2,
+      "name": "John",
+      "surname": "Doe",
+      "avatar": "1.png",
+      "birthDate": "26.03.2003",
+      "age": 22,
+      "location": {
+        "city": "London",
+        "country": "Great Britain"
+      },
+      "city": "London",
+      "contacts": {
+        "email": "Sincere@april.biz",
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "skype": "hildegard.org",
+        "instagram": "hildegard.org",
+        "telegram": "hildegard.org"
+      },
+      "profileTitle": "Найкращий тамада для вашого свята",
+      "aboutInfo": "Тут інфа про user",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "name": "Bill",
+      "surname": "Clinton",
+      "avatar": "1.png",
+      "birthDate": "26.03.2003",
+      "age": 22,
+      "location": {
+        "city": "London",
+        "country": "Great Britain"
+      },
+      "city": "London",
+      "contacts": {
+        "email": "Sincere@april.biz",
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "skype": "hildegard.org",
+        "instagram": "hildegard.org",
+        "telegram": "hildegard.org"
+      },
+      "profileTitle": "Супер ТАМАДА",
+      "aboutInfo": "Тут інфа про user",
+      "rating": 3
+    },
+    {
+      "id": 1010,
+      "name": "Vlad",
+      "surname": "Natrusnyi",
+      "avatar": "1.png",
+      "birthDate": "26.03.2003",
+      "age": 19,
+      "location": {
+        "city": "Полтава",
+        "country": "Україна"
+      },
+      "contacts": {
+        "email": "vladnatrusnyi@gmail.com",
+        "phone": "+380509117944",
+        "website": "vlados.org",
+        "skype": "vlados.org",
+        "instagram": "vlados.org",
+        "telegram": "vlados.org"
+      },
+      "profileTitle": "Найкращий Музикант для вашого свята",
+      "aboutInfo": "Тут інфа про user vladosich \"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud \n\nexercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \n\nExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"",
+      "rating": 4
+    }
+  ],
+  "response": [
+    {
+      "eventId": 1,
+      "id": 1,
+      "userId": 1,
+      "responseText": "<p>Тут описуєсться отклик виконавця1</p><p>\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p><p><br></p><p>Skype: vanya_yrgant</p><p>Telegram: @yraganT</p><p>Email: yrgant@gmail.com</p>",
+      "publicationTime": "2022-02-19T14:00:29.000Z"
+    },
+    {
+      "eventId": 4,
+      "id": 2,
+      "userId": 3,
+      "responseText": "<p>Тут описуєсться отклик виконавця2</p><p>\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p><p><br></p><p>Skype: vanya_yrgant</p><p>Telegram: @yraganT</p><p>Email: yrgant@gmail.com</p>",
+      "publicationTime": "2022-01-19T11:00:29.000Z",
+      "workerType": "Музикант"
+    },
+    {
+      "eventId": 4,
+      "id": 3,
+      "userId": 2,
+      "responseText": "<p>Тут описуєсться отклик виконавця3</p><p>\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p><p><br></p><p>Skype: vanya_yrgant</p><p>Telegram: @yraganT</p><p>Email: yrgant@gmail.com</p><p>Skype: vanya_yrgant</p><p>Telegram: @yraganT</p><p>Email: yrgant@gmail.com</p><p>Skype: vanya_yrgant</p><p>Telegram: @yraganT</p><p>Email: yrgant@gmail.com</p>",
+      "publicationTime": "2022-01-19T14:00:29.000Z",
+      "workerType": "Музикант"
+    },
+    {
+      "eventId": 4,
+      "id": 4,
+      "userId": 1,
+      "responseText": "<p>Тут описуєсться отклик виконавця4</p>",
+      "workerType": "Арендатор",
+      "publicationTime": "2022-01-19T10:30:29.000Z"
+    },
+    {
+      "eventId": 4,
+      "id": 5,
+      "userId": 1,
+      "responseText": "<p>Тут описуєсться отклик виконавця4</p><p>Тут описуєсться отклик виконавця4</p><p>Тут описуєсться отклик виконавця4</p>",
+      "publicationTime": "2022-01-19T14:00:29.000Z",
+      "workerType": "Музикант"
+    },
+    {
+      "eventId": 4,
+      "userId": 1,
+      "responseText": "<p><strong>Практична робота № 1</strong></p><p><strong>Тема:</strong> ЛІТЕРАТУРНА ТРАДИЦІЯ ТА НОВАТОРСВО ІВАНА НЕЧУЯ-ЛЕВИЦЬКОГО В ОПРАЦЮВАННІ ТЕМИ СЕЛЯНСТВА Й ЗАРОБІТЧАНСТВА</p><p><strong>Мета:</strong> з’ясувати особливості жанру соціально-психологічного повісті в творчій спадщині письменника; розкрити художньо-змістові параметри прози І. Нечуя-Левицького про селянство та заробітчанство.</p><p><strong style=\"background-color: lime;\">1).</strong> &nbsp;<strong style=\"background-color: yellow;\">Соціально-побутова повість –</strong> жанровий різновид реалістичної повісті, у якій розкрито своєрідність суспільно-побутового життя з його конфліктами, що вмотивовують поведінку типових персонажів, які діють у типових обставинах.</p>",
+      "publicationTime": "2022-03-30T18:44:27.209Z",
+      "workerType": "Арендатор",
+      "id": 6
+    },
+    {
+      "eventId": 5,
+      "userId": 1,
+      "responseText": "<p>ODVJVOJ VPO\" { {</p><p>fpsl p[l ve pe okr poe pk e \\</p><p>d e g et te</p><p>e gt eth et te</p><p>et het  rthrt rt</p>",
+      "publicationTime": "2022-03-31T08:58:34.197Z",
+      "workerType": "Декоратор",
+      "id": 7
+    }
+  ]
+}

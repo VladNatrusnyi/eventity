@@ -3,7 +3,7 @@
   <div class="contain">
     <div class="left_part">
       <img src="./../assets/img/logo.png" alt="" class="main_logo">
-      <router-link to="/AllEvents" class="find_job_btn">Знайти роботу</router-link>
+      <router-link to="/Events" class="find_job_btn">Знайти роботу</router-link>
       <a href="/CreateEvent" @click.prevent="onClickCreate" class="create_event-btn">Створити подію</a>
     </div>
     <div class="right_part">
@@ -12,6 +12,8 @@
         <router-link to="/Contacts" class="go_to_contacts">Контакти</router-link>
         <router-link to="" class="go_to_help">Допомога</router-link>
         <router-link to="" class="about_us">Про нас</router-link>
+        <SplitButton :label="USER_NAME" :model="items" v-if="checkUser" class="p-button-rounded"/>
+        <router-link v-else to="/login" class="enter">Вхід</router-link>
       </nav>
     </div>
    </div>
@@ -19,21 +21,58 @@
   <hr>
 </template>
 <script>
+import SplitButton from 'primevue/splitbutton'
+import { mapGetters } from 'vuex'
+
 export default {
   name: 'Header',
+  data () {
+    return {
+      items: [
+        {
+          label: 'Мій профіль',
+          icon: 'pi pi-user',
+          command: () => {
+            this.$router.push(`/UserProfile/${this.user}/MyProfileInfo`)
+          }
+        },
+        {
+          label: 'Вихід',
+          icon: 'pi pi-user',
+          to: '/',
+          command: () => {
+            this.logout()
+          }
+        }
+      ]
+    }
+  },
+  components: {
+    SplitButton
+  },
   methods: {
+    logout () {
+      this.$store.dispatch('logoutUser')
+    },
     onClickCreate () {
       this.$router.push('/CreateEvent')
     },
     onClickMain () {
       this.$router.push('/')
     }
+  },
+  computed: {
+    ...mapGetters([
+      'checkUser',
+      'user',
+      'USER_NAME'
+    ])
   }
 }
 </script>
 <style scoped>
 .contain{
-  padding: 0px 50px;
+  padding: 7px 50px;
   margin: 0 auto;
   /*border: 2px solid red;*/
   /*width: 100%;*/

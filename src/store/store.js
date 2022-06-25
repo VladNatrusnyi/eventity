@@ -1,31 +1,18 @@
 import Vuex from 'vuex'
+import AllEventsPage from './modules/AllEventsPage.store'
+import user from './modules/user'
+import closeEvent from './modules/closeEvent'
+import comments from './modules/comments'
+import myOrders from './modules/myOrders'
+import filterEvents from './modules/filterEvents'
 
-export const store = new Vuex.Store({
-  state: {
-    posts: []
-  },
-  getters: {
-    getPosts: state => {
-      return state.posts
-    }
-    // getPost: state => {
-    //   return state.post
-    // }
-  },
-  actions: {
-    loadPosts (context, posts) {
-      context.commit('loadPosts', posts)
-    },
-    addNewPost (context, post) {
-      context.commit('addNewPost', post)
-    }
-  },
-  mutations: {
-    loadPosts (state, payload) {
-      state.posts = payload
-    },
-    addNewPost (state, payload) {
-      state.posts.push(payload)
-    }
+export default new Vuex.Store({
+  modules: {
+    AllEventsPage,
+    user,
+    closeEvent,
+    comments,
+    myOrders,
+    filterEvents
   }
 })
